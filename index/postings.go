@@ -21,7 +21,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ning1875/inverted-index/labels"
+	"github.com/resurgence72/inverted-index/labels"
 )
 
 var allPostingsKey = labels.Label{}

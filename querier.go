@@ -5,8 +5,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/ning1875/inverted-index/labels"
-	"github.com/ning1875/inverted-index/index"
+	"github.com/resurgence72/inverted-index/index"
+	"github.com/resurgence72/inverted-index/labels"
 )
 
 // Bitmap used by func isRegexMetaCharacter to check whether a character needs to be escaped.

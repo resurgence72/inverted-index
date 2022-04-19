@@ -3,8 +3,8 @@ package inverted_index
 import (
 	"sync"
 
-	"github.com/ning1875/inverted-index/index"
-	"github.com/ning1875/inverted-index/labels"
+	"github.com/resurgence72/inverted-index/index"
+	"github.com/resurgence72/inverted-index/labels"
 )
 
 type IndexReader interface {

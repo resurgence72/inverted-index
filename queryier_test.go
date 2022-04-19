@@ -3,9 +3,9 @@ package inverted_index
 import (
 	"testing"
 
-	"github.com/ning1875/inverted-index/index"
-	"github.com/ning1875/inverted-index/labels"
-	"github.com/ning1875/inverted-index/testutil"
+	"github.com/resurgence72/inverted-index/index"
+	"github.com/resurgence72/inverted-index/labels"
+	"github.com/resurgence72/inverted-index/testutil"
 )
 
 func TestQuery(t *testing.T) {
@@ -112,9 +112,5 @@ func TestQuery(t *testing.T) {
 
 	tt5 := []uint64{1, 2, 3, 4}
 	testutil.Equals(t, p5s, tt5)
-
-}
-
-func TestAdd(t *testing.T) {
 
 }
